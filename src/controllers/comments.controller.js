@@ -1,3 +1,4 @@
+// Instructions up here for convenience
 // Build out the following methods on the `CommentsController` class (Use ES6 syntax)
 //
 // + `CommentsController.prototype.addCommentFormListener()`
@@ -12,7 +13,6 @@
 class CommentsController {
   constructor() {
     this.$addCommentForm = $('.add-comment');
-    this.$wrapper = $('#wrapper');
   }
 
   init() {

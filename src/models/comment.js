@@ -1,3 +1,4 @@
+// Instructions up here for convenience
 // Build the following on the comment class model (Use ES6 syntax)
 //
 // + `new Comment(comment, imageId)`
@@ -26,7 +27,7 @@ class Comment {
 
   commentEl(){
     return `<li class="comment" id="${this.id}">
-    <p>${this.commentContent}</p>
+      <p>${this.commentContent}</p>
     </li>`;
   }
 
